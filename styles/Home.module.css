@@ -1,0 +1,52 @@
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameWrapper{
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+  background: #fff;
+  border: 2px solid #6581b9;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+.fieldLabel{
+  font-size: 15px;
+}
+.fieldInput{
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+.primaryButton
+{
+  padding: 10px 20px;
+  color: #fff;
+  border: 1px solid #6581b9;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #6581b9;
+  transition: .4s ease;
+}
+.primaryButton:hover
+{
+  background-color: transparent;
+  color: #6581b9;
+}
+.primaryButton:disabled{
+  background-color: #bdc8de;
+  border: 1px solid #bdc8de;
+  pointer-events: none;
+}
